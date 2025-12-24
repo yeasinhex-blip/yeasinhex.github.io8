@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Special Girlfriend</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffe6f2; /* Light pink background */
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            color: #ff1493; /* Deep pink */
+        }
+        img {
+            max-width: 300px;
+            border-radius: 10px;
+            margin: 10px;
+        }
+        .hidden {
+            display: none;
+        }
+        button {
+            background-color: #ff69b4;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Happy [Special Occasion, e.g., Anniversary]! 💖</h1>
+    <p>You are the most amazing person in my life. Here's why:</p>
+    <ul>
+        <li>Your smile lights up my world.</li>
+        <li>You make every day an adventure.</li>
+        <li>I love how you [personal detail, e.g., laugh at my jokes].</li>
+    </ul>
+    <img src="https://example.com/your-photo1.jpg" alt="Us together">
+    <img src="https://example.com/your-photo2.jpg" alt="A special moment">
+    
+    <button onclick="revealMessage()">Click for a Secret Message</button>
+    <p id="secret" class="hidden">I love you more than words can say. Will you be my forever? ❤️</p>
+    
+    <script>
+        function revealMessage() {
+            document.getElementById('secret').classList.remove('hidden');
+        }
+    </script>
+</body>
+</html>
